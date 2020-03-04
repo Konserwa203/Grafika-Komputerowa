@@ -53,20 +53,14 @@ public class TransformedShapes extends JPanel {
 		g2 = (Graphics2D)g.create();
 		g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 		
-		// Black circle with yellow square
-	
 		g2.setPaint(new Color(0, 255, 0));
 		g2.fillRect(200, 200, 200, 200);
 		g2.setPaint(new Color(255, 255, 255));
 		g2.fillPolygon(new int[] {200,300,400}, new int[] {400,300,400}, 3);
 		
-		
-		
 		resetTransform();
 		
-		/* ----------------------------------------------------------------------- */
-		
-	} // end paintComponent()
+	} 
 
 
 	//--------------------------------------------------------------------------------------
