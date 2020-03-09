@@ -41,48 +41,48 @@
     function draw() {
      // TODO: insert code to draw the image for Exercise 1!
         graphics.clearRect(0,0,600,600);
-		//rectangle
-		graphics.fillStyle = "Aqua"       		 
+	//rectangle
+	graphics.fillStyle = "Aqua"       		 
         graphics.fillRect(200,250,200,100) 	
-		//outline
+	//outline
         graphics.fillStyle = "Black"       		
         graphics.strokeRect(200,250,200,100);	
-		//left eye
-		graphics.fillStyle = "White"
+	//left eye
+	graphics.fillStyle = "White"
         graphics.fillCircle(250,275,9)
-		graphics.fillStyle = "Black"
+	graphics.fillStyle = "Black"
         graphics.fillCircle(250,275,6)
-		graphics.fillStyle = "White"
+	graphics.fillStyle = "White"
         graphics.fillCircle(248,274,2)
-		//right eye
-		graphics.fillStyle = "White"
+	//right eye
+	graphics.fillStyle = "White"
         graphics.fillCircle(350,275,9)
-		graphics.fillStyle = "Black"
+	graphics.fillStyle = "Black"
         graphics.fillCircle(350,275,6)
-		graphics.fillStyle = "White"
+	graphics.fillStyle = "White"
         graphics.fillCircle(348,274,2)
-		//lips
-		graphics.beginPath();
-		graphics.moveTo(275,300);
-		graphics.quadraticCurveTo(300,340,325,300)
-		graphics.fillStyle = "Black"
+	//lips
+	graphics.beginPath();
+	graphics.moveTo(275,300);
+	graphics.quadraticCurveTo(300,340,325,300)
+	graphics.fillStyle = "Black"
         graphics.fill();
-		graphics.closePath();
-		graphics.beginPath();
-		graphics.moveTo(275,300);
-		graphics.quadraticCurveTo(300,320,325,300)
-		graphics.fillStyle = "Aqua"
+	graphics.closePath();
+	graphics.beginPath();
+	graphics.moveTo(275,300);
+	graphics.quadraticCurveTo(300,320,325,300)
+	graphics.fillStyle = "Aqua"
         graphics.fill();
         graphics.closePath();
-		//teeth
-		graphics.fillStyle = "White"
+	//teeth
+	graphics.fillStyle = "White"
         graphics.fillRect(295,310,9,5);
-		//space between teeth 
-		graphics.fillStyle = "Black"
-		graphics.fillRect(299,310,1,5);
-		//cheeks
-		graphics.strokeLine(274,302,277,298);
-		graphics.strokeLine(323,298,327,302);
+	//space between teeth 
+	graphics.fillStyle = "Black"
+	graphics.fillRect(299,310,1,5);
+	//cheeks
+	graphics.strokeLine(274,302,277,298);
+	graphics.strokeLine(323,298,327,302);
     } // end of draw()
     
     
