@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<svg width="2000" height="2000"  viewBox="0 0 2000 2000"
+     xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink" >
+    <defs>
+     <!-- 
+    
+-->
+        <g id="poly">
+            <polygon points="193.30127018922195,175 150,200 106.69872981077808,175.00000000000003 106.69872981077806,125.00000000000001 150,100 193.30127018922195,125.00000000000001" 
+					 
+					 fill="white" stroke="black" >
+        <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 150 150"
+                          to="360 150 150"
+                          dur="10s"
+                          repeatCount="indefinite"/>
+        </polygon>
+    <polygon points="493.30127018922195,225 450,250 406.6987298107781,225.00000000000003 406.69872981077805,175 450,150 493.30127018922195,175.00000000000003" 
+        fill="white" stroke="black">
+                        <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 450 200"
+                          to="360 450 200"
+                          dur="10s"
+                          repeatCount="indefinite"/> 
+    </polygon>
+    
+  
+ 
+ 
+  <rect x="150" y="110" width = "350" height = "20" transform = "rotate (10)" fill="red" />
+        </g>
+
+    </defs>
+    
+  
+<defs>
+<g id = "obiekt1">
+<use xlink:href = "#poly"/>
+        <polygon points="300,180 260,400 340,400" fill="blue"/>
+        </g>
+</defs>
+<defs>
+<g id = "obiekt2">
+<use xlink:href = "#poly"/>
+        <polygon points="300,180 260,400 340,400" fill="purple"/>
+        </g>
+</defs>
+
+<defs>
+<g id = "obiekt3">
+<use xlink:href = "#poly"/>
+        <polygon points="300,180 260,400 340,400" fill="green"/>
+        </g>
+</defs>
+<use xlink:href = "#obiekt1" transform = "scale(1, 1) translate(150,400)"/>
+<use xlink:href = "#obiekt2" transform = "scale(0.75, 0.75) translate(0,90)"/>
+<use xlink:href = "#obiekt3" transform = "scale(0.5, 0.5) translate(900,280)"/>
+</svg>
